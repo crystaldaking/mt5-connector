@@ -1,0 +1,21 @@
+{
+    "name": "crystal/mt5-connector",
+    "description": "MT5 Manager API",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "crystaldaking",
+            "email": "crystal@crystalapps.by"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "CrystalApps\\Mt5Connector\\" : "src/"
+        }
+    }
+}
