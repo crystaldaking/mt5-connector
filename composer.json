@@ -3,7 +3,9 @@
     "description": "MT5 Manager API",
     "type": "library",
     "require": {
-        "guzzlehttp/guzzle": "^7.2"
+        "guzzlehttp/guzzle": "^7.2",
+        "ext-mbstring": "*",
+        "ext-json": "*"
     },
     "license": "MIT",
     "authors": [
